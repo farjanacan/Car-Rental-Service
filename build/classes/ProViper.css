@@ -1,0 +1,42 @@
+/* 
+    Created on : May 1, 2016, 11:44:00 PM
+    Author     : Chaity
+*/
+
+.root{
+    -fx-background-color:#9999ff;
+}
+
+.button{
+    -fx-background-color:#ffcccc;
+    -fx-text-fill:#000000; 
+    -fx-border-color:#ffffff;
+    -fx-background-radius:9;
+    -fx-border-radius: 9;
+    -fx-effect: dropshadow( one-pass-box, #999999, 6 , 0.0 , 3, 3 );
+}
+
+#font-button {
+    -fx-font: bold italic 10pt "Arial";
+    -fx-background-color:#99ccff;
+    -fx-effect: dropshadow( one-pass-box , #999999, 6 , 0.0 , 3, 3 );
+}
+#font2-button {
+    -fx-font: bold italic 10pt "Arial";
+    -fx-background-color:#ff9933;
+    -fx-effect: dropshadow( one-pass-box , #999999, 6 , 0.0 , 3, 3 );
+}
+
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+#label-custom{
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    
+}
+
+

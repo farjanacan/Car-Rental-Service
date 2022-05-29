@@ -1,0 +1,57 @@
+/* 
+    Created on : May 1, 2016, 11:44:00 PM
+    Author     : Chaity
+*/
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+.root{
+    -fx-background-color:#ccffcc;
+}
+.label{
+    -fx-text-fill:#000000;
+}
+.button{
+    -fx-background-color:#ffcccc;
+    -fx-text-fill:#000000; 
+    -fx-border-color:#ffffff;
+    -fx-background-radius:9;
+    -fx-border-radius: 9;
+    -fx-effect: dropshadow( one-pass-box, #999999, 6 , 0.0 , 3, 3 );
+}
+
+
+.text {
+    -fx-font-smoothing-type: lcd; } 
+#fancytext {
+    -fx-font: 25px arial;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 5%, slateblue 70%);
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+}
+
+#font-button {
+    -fx-font: bold italic 10pt "Arial";
+    -fx-background-color:#99ccff;
+    -fx-effect: dropshadow( one-pass-box , #999999, 6 , 0.0 , 3, 3 );
+}
+#font2-button {
+    -fx-font: bold italic 10pt "Arial";
+    -fx-background-color:#ff9933;
+    -fx-effect: dropshadow( one-pass-box , #999999, 6 , 0.0 , 3, 3 );
+}
+
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+#label-custom{
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    
+}
+
+

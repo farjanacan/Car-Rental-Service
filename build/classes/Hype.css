@@ -1,0 +1,26 @@
+
+/* 
+    Created on : May 2, 2016, 2:56:14 AM
+    Author     : Chaity
+*/
+
+.root{
+    -fx-background-color:#ffcc99;
+    
+}
+
+.button{
+    -fx-background-color:#cccccc;
+    -fx-text-fill:#000000; 
+    -fx-text-effect:dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-border-color:#ffffff;
+    -fx-background-radius: 9;
+    -fx-border-radius: 9;
+}
+
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}

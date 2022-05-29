@@ -1,0 +1,17 @@
+/* 
+    Created on : May 1, 2016, 11:44:00 PM
+    Author     : Chaity
+*/
+.root{
+    -fx-background-color:#cccccc;
+    
+}
+
+.button{
+    -fx-background-color:#99ccff;
+    -fx-text-fill:#000000; 
+    -fx-border-color:#ffffff;
+    -fx-background-radius: 9;
+    -fx-border-radius: 9;
+}
+
